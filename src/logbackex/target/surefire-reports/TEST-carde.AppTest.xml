@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="carde.AppTest" time="0.038" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="carde.AppTest" time="0.206" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/test-classes:/home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/classes:/home/vaibhav/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/vaibhav/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/vaibhav/.m2/repository/org/slf4j/slf4j-api/1.7.0/slf4j-api-1.7.0.jar:/home/vaibhav/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar:/home/vaibhav/.m2/repository/ch/qos/logback/logback-core/1.3.0-alpha4/logback-core-1.3.0-alpha4.jar:"/>
+    <property name="java.class.path" value="/home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/test-classes:/home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/classes:/home/vaibhav/.m2/repository/org/slf4j/slf4j-api/1.7.0/slf4j-api-1.7.0.jar:/home/vaibhav/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar:/home/vaibhav/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar:/home/vaibhav/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/vaibhav/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="java.vm.vendor" value="JetBrains s.r.o"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://www.jetbrains.com/"/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/snap/intellij-idea-community/169/jbr/lib"/>
-    <property name="sun.java.command" value="/home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/surefire/surefirebooter2449654417743207634.jar /home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/surefire 2019-09-06T14-35-51_456-jvmRun1 surefire127882159765339587tmp surefire_0456813973452390254tmp"/>
+    <property name="sun.java.command" value="/home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/surefire/surefirebooter6771513212909760844.jar /home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/surefire 2019-09-06T17-12-43_423-jvmRun1 surefire3331087906905170256tmp surefire_010596910062309899144tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/test-classes:/home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/classes:/home/vaibhav/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/vaibhav/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/vaibhav/.m2/repository/org/slf4j/slf4j-api/1.7.0/slf4j-api-1.7.0.jar:/home/vaibhav/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar:/home/vaibhav/.m2/repository/ch/qos/logback/logback-core/1.3.0-alpha4/logback-core-1.3.0-alpha4.jar:"/>
+    <property name="surefire.test.class.path" value="/home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/test-classes:/home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/classes:/home/vaibhav/.m2/repository/org/slf4j/slf4j-api/1.7.0/slf4j-api-1.7.0.jar:/home/vaibhav/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar:/home/vaibhav/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar:/home/vaibhav/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/vaibhav/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/vaibhav"/>
     <property name="user.language" value="en"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/surefire/surefirebooter2449654417743207634.jar"/>
+    <property name="surefire.real.class.path" value="/home/vaibhav/IdeaProjects/vaibhav/src/logbackex/target/surefire/surefirebooter6771513212909760844.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.3+12-b304.39"/>
     <property name="user.name" value="vaibhav"/>
@@ -58,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="carde.AppTest" time="0.004"/>
+  <testcase name="shouldDemonstratelogging" classname="carde.AppTest" time="0.16"/>
 </testsuite>

@@ -6,15 +6,13 @@ import org.junit.Test;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-{
+public class AppTest {
     /**
      * Rigorous Test :-)
      */
     @Test
-    public void shouldDemonstratelogging()
-    {
-         CarServices carServices=new CarServices();
-         carServices.process("BMW");
+    public void shouldcallmain() {
+        String[] arguments = {"BMW", "porsche"};
+        CarSelector.main(arguments);
     }
 }
