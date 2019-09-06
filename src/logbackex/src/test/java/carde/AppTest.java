@@ -14,6 +14,7 @@ public class AppTest
     @Test
     public void shouldDemonstratelogging()
     {
-        
+         CarServices carServices=new CarServices();
+         carServices.process("BMW");
     }
 }

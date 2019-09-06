@@ -3,10 +3,10 @@ package carde;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class carServices {
-    private final Logger log = LoggerFactory.getLogger(carServices.class);
+class CarServices {
+    private final Logger log = LoggerFactory.getLogger(CarServices.class);
 
-    public void process(String input) {
+    void process(String input) {
         if (log.isDebugEnabled()) {
             log.debug("processing car:{}" + input);
         }
