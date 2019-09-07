@@ -11,7 +11,7 @@ public class AppTest {
      * Rigorous Test :-)
      */
     @Test
-    public void shouldcallmain() {
+    public void shouldcallmain() throws Exception {
         String[] arguments = {"BMW", "porsche"};
         CarSelector.main(arguments);
     }
