@@ -1,11 +1,13 @@
 package carde;
+
 import java.io.IOException;
-public enum  CarState{
+
+public enum CarState {
 
     DRIVING, WAITING, PARKING;
 
-    public static CarState from(String state) throws Exception {
-        switch (state){
+    public static CarState from(String state) {
+        switch (state) {
             case "DRIVING":
                 return DRIVING;
             case "WAITING":
@@ -13,8 +15,8 @@ public enum  CarState{
             case "PARKING":
                 return PARKING;
             default:
-                throw new Exception();
-         }
+                throw new RuntimeException("unknown state" + state);
+        }
     }
 
 }
