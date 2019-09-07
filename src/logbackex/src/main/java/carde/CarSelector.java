@@ -5,7 +5,12 @@ public class CarSelector {
     public static void main(String[] arguments)  {
         CarServices carService = new CarServices();
         for (String argument : arguments) {
-            carService.process(argument);
+            try {
+                carService.process(argument);
+            }catch (RuntimeException e){
+                 System.out.println(e.getMessage());
+            }
+
         }
     }
 }
